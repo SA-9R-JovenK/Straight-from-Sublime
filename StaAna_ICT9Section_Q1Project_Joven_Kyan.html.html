@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Q1 Project</title>
+    <a href="https://www.youtube.com/@CinemaBricks-carbon" target="_blank">
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="styles_Q1Project.css.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="logo.png" alt="Student Logo" class="logo">
+            <ul class="nav-links">
+                <li><a href="#about">Profile</a></li>
+                <li><a href="#works">Creations</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="icon.png" alt="Profile Picture" class="profile-pic">
+        <h1><span class="highlight">Kyan Joven</span></h1>
+        <p>Beginning Animator and YouTuber</p>
+    </section>
+
+    <section id="about">
+        <h2 class="h2">Profile</h2>
+        <p>I'm Kyan, mainly on Technology, Photography, and Film. But I'm still trying to improve</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0DYS2kPmf6w?si=QiSA6ol5bwTC1YWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <p>My Grade 8 Video isn't posted on YouTube so I can't embed but I have a showcase of one of my films.</p>
+    </section>
+
+    <section id="works">
+        <h2 class="h2">Creations</h2>
+        <div class="works-gallery">
+
+            <div class="work-item">
+                <a href="file:///C:/Users/kyanq/Downloads/ICT/Q1%20D1/StaAna_ICT9Section_Q1Drill1_Joven_Kyan.html" target="_blank">
+                <img src="Profile.jpg" alt="Folder">
+                </a>
+                <p style="text-align: center" class="formtitle"><span class="highlight">Profile and Hobbies</span></p>
+            </div>
+            <div class="work-item">
+                <ul>
+                    <li>&#128249; Stop-Motion Animating</li>
+                    <li>&#127918; Engineer Gaming</li>
+                    <li>&#128267; Building and Listening</li>
+                </ul>
+            </div>
+            <br>
+
+            <div class="work-item">
+                <a href="file:///C:/Users/kyanq/Downloads/ICT/Q1%20SW1/StaAna_ICT9Ruby_Q1SW1_Joven_Kyan.html" target="_blank">
+                <img src="Burn.jpg" alt="Film">
+                </a>
+                <p style="text-align: center;" class="formtitle"><span class="highlight">Top 3 Favorite Films</span></p>
+            </div>
+            <div class="work-item">
+                <ul>
+                    <li>&#128250; Skibidi Toilet</li>
+                    <li>&#127913; Fedora Chronicles</li>
+                    <li>&#128293; Indie Cross</li>
+                </ul>
+            </div>
+            <br>
+
+            <div class="work-item">
+                <a href="file:///C:/Users/kyanq/Downloads/ICT/Q1%20D2/StaAna_ICT9Ruby_Q1Drill2_Joven_Kyan.html" target="_blank">
+                <img src="Music.png" alt="Spotify">
+                </a>
+                <p style="text-align: center;" class="formtitle"><span class="highlight">Music Recommendation</span></p>
+            </div>
+            <div class="work-item">
+                <ul>
+                    <li>&#128187; Indie</li>
+                    <li>&#127911; Lo-Fi</li>
+                    <li>&#127909; Cinematic</li>
+                </ul>
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+    <section id="contact">
+        <h2 class="h2">Contacts</h2>
+        <div class="form-container">
+                <form>
+                
+                <label class="formtitle" for="name"><b>Name:</b></label>
+                <input type="text" id="name" name="name" placeholder="Kyan Joven" required>
+                <br>
+                <label class="formtitle" for="email"><b>Email Adress:</b></label>
+                <input type="email" id="email" name="email" placeholder="kyanqjoven@gmail.com" required>
+
+                <br>
+
+                <label class="formtitle"><b>Media</b></label>
+                <br>
+                <div class="radio-group">
+                    <input type="radio" id="rate1" name="rating" value="1" required>
+                    <label for="rate1">YouTube</label>
+
+                    <input type="radio" id="rate2" name="rating" value="2">
+                    <label for="rate2">Google</label>
+
+                    <input type="radio" id="rate3" name="rating" value="3">
+                    <label for="rate3">Friends</label>
+                </div>
+
+                <br>
+                <br>
+
+                <label class="formtitle"><b>Services:</b></label>
+                <br>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="help" name="genre" value="Help">
+                    <label for="help">Tech Support</label>
+
+                    <input type="checkbox" id="photo" name="genre" value="Photo">
+                    <label for="photo">Photography</label>
+
+                    <input type="checkbox" id="lego" name="genre" value="Lego">
+                    <label for="lego">Stop-Motion Animation</label>
+                </div>
+                <br>
+                <br>
+
+                <label class="formtitle" for="platform"><b>Rating:</b></label>
+                <select id="platform" name="platform" required>
+                    <option value="">-- Select Rating --</option>
+                    <option value="1">I</option>
+                    <option value="2">II</option>
+                    <option value="3">III</option>
+                    <option value="4">IV</option>
+                    <option value="5">V</option>
+                </select>
+                
+                <br>
+                <br>
+                <label class="formtitle" for="reason"><b>Feedback</b></label>
+                <textarea id="reason" name="reason" rows="4" placeholder="feedback here..." required></textarea>
+                <br>
+
+                <button type="submit">Submit</button>
+                </form>
+        </div>
+
+    </section>
+
+
+
+    <footer>
+        <p>&copy; 2025 Joven. Copyright Infringement is not Encouraged.</p>
+    </footer>
+</body>
+</html>
